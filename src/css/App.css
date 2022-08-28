@@ -1,0 +1,258 @@
+/*---GENERAL---*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&family=Bebas+Neue&family=Raleway:wght@300;400;500&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a:hover{
+  text-decoration:none;
+
+}
+p{
+  font-size:22px;
+}
+h1,h2,h3,h4{
+  font-family: 'Bebas Neue', cursive;
+}
+.App h1{
+  font-size:75px;
+  line-height:1;
+  margin-bottom:0;
+}
+.App {
+  background-color: #ffffff;
+}
+
+.nucontainer{
+  width:100%;
+  max-width:1200px;
+  display:block;
+  vertical-align:top;
+  margin:0 auto;
+}
+
+.App .nucontainer{
+  padding:60px 15px;
+  box-sizing:border-box;
+}
+
+.wrapper{
+  min-height:60vh;
+}
+
+button{
+  padding:15px 20px;
+  background:rgba(0,0,0,0);
+  border:2px solid #000000;
+  text-transform:uppercase;
+  font-family: 'Raleway', sans-serif;
+}
+button:hover{
+  background:#ffffff;
+}
+form input, form button{
+  margin-right:15px;
+  padding: 8px 10px;
+
+}
+
+/*---HEADER---*/
+
+.header{
+  width:100%;
+  display:block;
+  background:url("../img/forge-bg.JPG") no-repeat center center;
+  background-size: 100% auto;
+  padding:45px 0;
+  border-bottom:17px solid #000000;
+}
+.logocont{
+  display:inline-block;
+  text-align:left;
+  padding:0 15px;
+}
+.header-menu{
+  display:inline-block;
+  float:right;
+}
+.header-menu ul li{
+  display:inline-block;
+/*  font-family: 'Bebas Neue', cursive;*/
+  font-family: 'Raleway', sans-serif;
+}
+
+.header-menu ul li:not(:last-child)::after {
+  content: "|";
+  font-weight:bold;
+  text-transform:uppercase;
+  font-size:24px;
+}
+.header-menu a, .header-menu button{
+  color:#ffffff;
+  font-weight:normal;
+  text-transform:uppercase;
+  font-size:20px;
+  text-shadow:0 0 2px #333333;
+  padding:0 10px;
+  border:none;
+}
+.header-menu a:hover, .header-menu button:hover{
+  text-decoration:none;
+  color:#e1e1e1;
+  background:rgba(0,0,0,0);
+}
+.logoh2-1{
+  display:inline-block;
+  color:#ffffff;
+}
+.main-logo{
+  max-height:120px;
+  display:inline-block;
+}
+.logoh2-2{
+  display:inline-block;
+  color:#000000;
+  vertical-align:bottom;
+  font-weight:bold;
+  padding:10px 0 0 20px;
+  font-size:78px;
+  line-height:1;
+  margin-bottom:0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+}
+
+/*---FOOTER---*/
+.footer{
+  width:100%;
+  display:block;
+  background:url("../img/forge-bg.JPG") no-repeat bottom center;
+  background-size: 100% auto;
+  padding:45px 0;
+  border-top:17px solid #000000;
+}
+.logocont-footer{
+  width:100%;
+  text-align:right;
+  padding:0 15px;
+}
+.footer-logo{
+  max-height:50px;
+  display:inline-block;
+}
+
+/*---SIDEBAR---*/
+
+.sidebar{
+  height:100vh;
+  display:inline-block;
+}
+.sidebar-inner{
+  min-height:95vh;  
+  background:#ffffff;
+  box-shadow:-1px 1px 15px #f9f9f9;
+  -moz-box-shadow:-1px 1px 15px #f9f9f9;
+  -webkit-box-shadow:-1px 1px 15px #f9f9f9;
+  background:#0F5CA3;
+  border-radius:5px;
+  position:relative;
+  margin:15px 0 0 0;
+  padding:16px;
+}
+.sidebar-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900px;
+  text-transform: uppercase;
+  font-size:22px;
+  color:#999999;
+  text-align:center;
+  padding:5px 10px;
+}
+.sidebar-h2{
+  color:#ffffff;
+  text-transform:uppercase;
+  font-size:20px;
+  padding:5px 5px;
+  text-align:center;
+}
+.sidebar-inner .active h2{
+  background:#000000;
+  color:#e1e1e1;
+}
+.sidebar-inner button, .sidebar-inner button:focus, .sidebar-inner button:visited{
+  background:none;
+  border:none;
+  width:100%;
+  text-align:left;
+  padding:2px 3px;
+  outline:none;
+}
+nav, button{
+  line-height:1rem;
+}
+
+
+/*---LANDING---*/
+.landing-h2-1{
+  font-family: 'Bebas Neue', cursive;
+  font-size:120px;
+  line-height:1;
+  text-align:center;
+}
+.landing-h2-2{
+  font-family: 'Bebas Neue', cursive;
+  font-size:295px;
+  line-height:1;
+  margin-top:-20px;
+  text-align:center;
+}
+.landing-p-1{
+  font-size:36px;
+  text-align:center;
+  margin-top:-20px;
+  line-height:1;
+}
+.landing-p-2{
+  font-size:26px;
+  text-align:center;
+  line-height:1;
+}
+
+/*---MAIN CONTENT---*/
+.main-content{
+  display:inline-block;
+  vertical-align:top;
+  margin:15px 0 0 0;
+}
+.contentCont{
+  display:block;
+  position:relative;
+  padding:30px 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
