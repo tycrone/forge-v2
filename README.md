@@ -1,3 +1,8 @@
+# FORGE (v2)
+## Unfinished application for documenting and demonstrating js widgets
+
+----------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
