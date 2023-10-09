@@ -3,13 +3,13 @@ import 'firebase/auth';
 import 'firebase/database';
 
 const config = {
-	apiKey: "AIzaSyCTni-xjcGc7-PtuUlJdEuZ5g-ytgI7Wls",
-	authDomain: "forge-e9fef.firebaseapp.com",
-	databaseURL: "https://forge-e9fef.firebaseio.com",
-	projectId: "forge-e9fef",
-	storageBucket: "forge-e9fef.appspot.com",
-	messagingSenderId: "157967972791",
-	appId: "1:157967972791:web:76d869140a892ac3ad1032"
+	apiKey: process.env.FIREBASEAPIKEY,
+	authDomain: process.env.FIREBASEAUTHDOMAIN,
+	databaseURL: process.env.FIREBASEDATABASEURL,
+	projectId: process.env.FIREBASEPROJECTID,
+	storageBucket: process.env.FIREBASESTORAGEBUCKET,
+	messagingSenderId: process.env.MESSAGINGSENDERID,
+	appId: process.env.FIREBASEAPPID
 };
 
 class Firebase {
